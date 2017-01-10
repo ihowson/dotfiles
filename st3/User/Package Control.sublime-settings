@@ -1,0 +1,38 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"BracketHighlighter",
+		"Clickable URLs",
+		"Cython",
+		"DashDoc",
+		"Fortran",
+		"Gitignored File Excluder",
+		"GoSublime",
+		"Handlebars",
+		"HexViewer",
+		"jQuery",
+		"Markdown Extended",
+		"Meteor Autocomplete (TernJS)",
+		"One Dark Color Scheme",
+		"Package Control",
+		"Python Flake8 Lint",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-cpplint",
+		"SublimeLinter-html-tidy",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"SublimeLinter-pep8",
+		"SublimeLinter-pyflakes",
+		"SublimeLinter-pylint",
+		"SublimeLinter-xmllint",
+		"VintageLines",
+		"Vintageous"
+	]
+}

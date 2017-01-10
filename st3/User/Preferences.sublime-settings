@@ -1,0 +1,64 @@
+{
+	"auto_find_in_selection": true,
+	"auto_match_enabled": false,
+	"caret_extra_width": 4,
+	"caret_style": "solid",
+	"color_scheme": "Packages/User/One Dark (Flake8Lint).tmTheme",
+	"detect_slow_plugins": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS"
+	],
+	"font_face": "Mononoki",
+	"font_size": 13,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"GoSublime",
+		"Markdown",
+		"Meteor Autocomplete (TernJS)",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-cpplint",
+		"Vintage"
+	],
+	"rulers":
+	[
+		80
+	],
+	"save_on_focus_lost": true,
+	"scroll_speed": 0,
+	"show_tab_close_buttons": false,
+	"theme": "Default.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"use_simple_full_screen": true,
+	"vintage_lines.force_mode": true,
+	"vintageous_reset_mode_when_switching_tabs": false,
+	"vintageous_use_ctrl_keys": true
+}
