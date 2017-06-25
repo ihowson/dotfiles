@@ -6,14 +6,11 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
-		"BracketHighlighter",
+		"BetterFindBuffer",
 		"Clickable URLs",
-		"Cython",
 		"DashDoc",
-		"Fortran",
-		"Gitignored File Excluder",
-		"GoSublime",
-		"Handlebars",
+		"Dockerfile Syntax Highlighting",
+		"Fix Mac Path",
 		"HexViewer",
 		"jQuery",
 		"Markdown Extended",
@@ -21,6 +18,8 @@
 		"One Dark Color Scheme",
 		"Package Control",
 		"Python Flake8 Lint",
+		"Search in Project",
+		"Six",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
@@ -33,6 +32,7 @@
 		"SublimeLinter-pylint",
 		"SublimeLinter-xmllint",
 		"VintageLines",
-		"Vintageous"
+		"Vintageous",
+		"Wrap Plus"
 	]
 }

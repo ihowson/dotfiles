@@ -1,0 +1,8 @@
+*.cache
+*.crt
+*-ca-bundle
+fishd.*
+*.exe
+*_history
+*.last-run
+
