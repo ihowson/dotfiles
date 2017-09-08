@@ -1,0 +1,9 @@
+# keepalives to stop Parallels dropping connections
+# see https://stackoverflow.com/a/25087194
+Host *
+ServerAliveInterval 240
+
+# allow Yubikey PIV key for auth
+# see https://itarch.stanford.edu/archives/2016/general/yubikey-piv-for-ssh-on-macs
+PKCS11Provider /usr/local/lib/opensc-pkcs11.so
+
