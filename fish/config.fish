@@ -15,3 +15,5 @@ set -x MANPATH /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/help
 status --is-interactive; and . (pyenv init -|psub)
 status --is-interactive; and . (pyenv virtualenv-init -|psub)
 
+eval (python -m virtualfish auto_activation)
+

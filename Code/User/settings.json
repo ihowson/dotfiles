@@ -1,0 +1,34 @@
+{
+    "vim.disableAnnoyingNeovimMessage": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.fontFamily": "Mononoki, Menlo, Monaco, 'Courier New', monospace",
+    "window.zoomLevel": 0,
+    "files.autoSave": "onFocusChange",
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "relative",
+    "editor.renderWhitespace": "all",
+    "editor.autoClosingBrackets": false,
+    "c-cpp-flylint.flexelint.enable": false,
+    "folder-indexing.exclude": [
+        "*\\bin\\*",
+        "*\\obj\\*",
+        "*\\.svn\\*",
+        "*\\.git\\*",
+        "*.dll",
+        "*.exe",
+        "*.d"
+    ],
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "git.enabled": false,
+    "C_Cpp.errorSquiggles": "Disabled",
+    "editor.acceptSuggestionOnEnter": "off",
+    "terminal.integrated.fontSize": 13,
+    "editor.fontSize": 13
+}
