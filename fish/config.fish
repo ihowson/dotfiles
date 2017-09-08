@@ -12,9 +12,6 @@ set -gx PATH ~/bin /usr/local/sbin $PATH
 set fish_user_paths /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/bin
 set -x MANPATH /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/help/man /usr/local/share/man /usr/share/man /opt/x11/share/man
 
-status --is-interactive; and . (pyenv init -|psub)
-status --is-interactive; and . (pyenv virtualenv-init -|psub)
-
 eval (python -m virtualfish auto_activation)
 
 export SSH_AUTH_SOCK=~/.gnupg/S.gpg-agent.ssh
