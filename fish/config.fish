@@ -17,3 +17,5 @@ status --is-interactive; and . (pyenv virtualenv-init -|psub)
 
 eval (python -m virtualfish auto_activation)
 
+export SSH_AUTH_SOCK=~/.gnupg/S.gpg-agent.ssh
+
