@@ -9,6 +9,7 @@
 	"caret_style": "solid",
 	"color_scheme": "Packages/User/SublimeLinter/One Dark (Flake8Lint) (SL).tmTheme",
 	"detect_slow_plugins": true,
+	"draw_white_space": "all",
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -40,13 +41,11 @@
 		"CVS"
 	],
 	"font_face": "Mononoki",
-	"font_size": 18,
+	"font_size": 13,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Markdown",
-		"Meteor Autocomplete (TernJS)",
-		"SublimeCodeIntel",
 		"Vintage"
 	],
 	"mdpopups.use_sublime_highlighter": true,

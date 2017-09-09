@@ -1,4 +1,4 @@
-{
+i{
 	"bootstrapped": true,
 	"in_process_packages":
 	[
@@ -14,28 +14,24 @@
 		"HexViewer",
 		"jQuery",
 		"Markdown Extended",
+		"MarkdownHighlighting",
 		"Material Color Scheme",
-		"Meteor Autocomplete (TernJS)",
+		"NeoVintageous",
 		"One Dark Color Scheme",
 		"Package Control",
 		"PlainTasks",
 		"Python Flake8 Lint",
 		"Search in Project",
 		"SideBarEnhancements",
-		"Six",
-		"SublimeCodeIntel",
+		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
 		"SublimeLinter-cpplint",
 		"SublimeLinter-html-tidy",
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
-		"SublimeLinter-pep8",
-		"SublimeLinter-pyflakes",
-		"SublimeLinter-pylint",
 		"SublimeLinter-xmllint",
 		"VintageLines",
-		"Vintageous",
 		"Wrap Plus"
 	]
 }
