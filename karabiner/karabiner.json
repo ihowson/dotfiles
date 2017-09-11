@@ -159,6 +159,20 @@
                     },
                     "ignore": true,
                     "simple_modifications": {}
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": {},
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 628,
+                        "vendor_id": 1452
+                    },
+                    "ignore": false,
+                    "simple_modifications": {
+                        "caps_lock": "caps_lock"
+                    }
                 }
             ],
             "fn_function_keys": {
@@ -176,7 +190,7 @@
                 "f9": "fastforward"
             },
             "name": "logitech keyboard",
-            "selected": true,
+            "selected": false,
             "simple_modifications": {
                 "caps_lock": "escape",
                 "left_command": "left_option",
@@ -341,6 +355,20 @@
                     },
                     "ignore": true,
                     "simple_modifications": {}
+                },
+                {
+                    "disable_built_in_keyboard_if_exists": false,
+                    "fn_function_keys": {},
+                    "identifiers": {
+                        "is_keyboard": true,
+                        "is_pointing_device": false,
+                        "product_id": 628,
+                        "vendor_id": 1452
+                    },
+                    "ignore": false,
+                    "simple_modifications": {
+                        "caps_lock": "escape"
+                    }
                 }
             ],
             "fn_function_keys": {
@@ -358,7 +386,7 @@
                 "f9": "fastforward"
             },
             "name": "apple keyboard",
-            "selected": false,
+            "selected": true,
             "simple_modifications": {},
             "virtual_hid_keyboard": {
                 "caps_lock_delay_milliseconds": 0,
