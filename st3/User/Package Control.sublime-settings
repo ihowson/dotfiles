@@ -1,4 +1,4 @@
-{
+i{
 	"bootstrapped": true,
 	"in_process_packages":
 	[
@@ -22,6 +22,7 @@
 		"PlainTasks",
 		"Python Flake8 Lint",
 		"Search in Project",
+		"SideBarEnhancements",
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
