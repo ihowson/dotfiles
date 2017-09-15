@@ -12,18 +12,16 @@
                 },
                 "rules": [
                     {
-                        "description": "Alt-PrtSc/Scroll/Pause become media control keys",
+                        "description": "Shift-PrtSc/Scroll/Pause become media control keys",
                         "manipulators": [
                             {
                                 "from": {
-                                    "key_code": "print_screen",
+                                    "key_code": "volume_decrement",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_option"
+                                            "shift"
                                         ],
-                                        "optional": [
-                                            "any"
-                                        ]
+                                        "optional": []
                                     }
                                 },
                                 "to": [
@@ -35,14 +33,12 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "scroll_lock",
+                                    "key_code": "volume_increment",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_option"
+                                            "shift"
                                         ],
-                                        "optional": [
-                                            "any"
-                                        ]
+                                        "optional": []
                                     }
                                 },
                                 "to": [
@@ -54,14 +50,12 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "pause",
+                                    "key_code": "mute",
                                     "modifiers": {
                                         "mandatory": [
-                                            "left_option"
+                                            "shift"
                                         ],
-                                        "optional": [
-                                            "any"
-                                        ]
+                                        "optional": []
                                     }
                                 },
                                 "to": [

@@ -51,15 +51,15 @@
             ]
         },
         {
-            "description": "Alt-PrtSc/Scroll/Pause become media control keys",
+            "description": "Shift-PrtSc/Scroll/Pause become media control keys",
             "manipulators": [
                 {
                     "type": "basic",
                     "from": {
-                        "key_code": "aprint_screen",
+                        "key_code": "volume_decrement",
                         "modifiers": {
-                            "mandatory": ["left_option"],
-                            "optional": ["any"]
+                            "mandatory": ["shift"],
+                            "optional": []
                         }
                     },
                     "to": [{"key_code": "rewind"}]
@@ -67,10 +67,10 @@
                 {
                     "type": "basic",
                     "from": {
-                        "key_code": "ascroll_lock",
+                        "key_code": "volume_increment",
                         "modifiers": {
-                            "mandatory": ["left_option"],
-                            "optional": ["any"]
+                            "mandatory": ["shift"],
+                            "optional": []
                         }
                     },
                     "to": [{"key_code": "play_or_pause"}]
@@ -78,10 +78,10 @@
                 {
                     "type": "basic",
                     "from": {
-                        "key_code": "apause",
+                        "key_code": "mute",
                         "modifiers": {
-                            "mandatory": ["left_option"],
-                            "optional": ["any"]
+                            "mandatory": ["shift"],
+                            "optional": []
                         }
                     },
                     "to": [{"key_code": "fastforward"}]

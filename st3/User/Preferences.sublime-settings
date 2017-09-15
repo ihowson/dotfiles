@@ -46,7 +46,9 @@
 	"ignored_packages":
 	[
 		"Markdown",
-		"Vintage"
+		"Six",
+		"Vintage",
+		"Vintageous"
 	],
 	"mdpopups.use_sublime_highlighter": true,
 	"rulers":

@@ -8,7 +8,6 @@
     "editor.lineNumbers": "relative",
     "editor.renderWhitespace": "all",
     "editor.autoClosingBrackets": false,
-    "c-cpp-flylint.flexelint.enable": false,
     "folder-indexing.exclude": [
         "*\\bin\\*",
         "*\\obj\\*",
@@ -31,4 +30,6 @@
     "editor.acceptSuggestionOnEnter": "off",
     "terminal.integrated.fontSize": 13,
     "editor.fontSize": 13
+    "c-cpp-flylint.flexelint.enable": false,
+    "gitlens.blame.line.enabled": false
 }
