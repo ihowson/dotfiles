@@ -31,5 +31,18 @@
     "terminal.integrated.fontSize": 13,
     "editor.fontSize": 13
     "c-cpp-flylint.flexelint.enable": false,
-    "gitlens.blame.line.enabled": false
+    "gitlens.blame.line.enabled": false,
+    "window.title": "${activeEditorLong}${separator}${rootName}",
+    "gitlens.codeLens.enabled": false,
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.fontSize": 13,
+    "editor.fontSize": 16,
+    "projectManager.showProjectNameInStatusBar": true,
+    "projectManager.removeCurrentProjectFromList": false,
+    "projectManager.vscode.ignoredFolders": [
+        "node_modules",
+        "out",
+        "typings",
+        "test"
+    ]
 }
