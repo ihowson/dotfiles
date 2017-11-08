@@ -6,7 +6,8 @@
       "tasks"
     ]
     telemetryConsent: "no"
-  editor: {}
+  editor:
+    fontSize: 8
   "exception-reporting":
     userId: "9e59685e-54eb-47d6-a8dc-3ff505558b19"
   tasks:

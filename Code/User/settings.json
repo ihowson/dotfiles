@@ -2,7 +2,7 @@
     "vim.disableAnnoyingNeovimMessage": true,
     "workbench.colorTheme": "One Dark Pro",
     "editor.fontFamily": "Mononoki, Menlo, Monaco, 'Courier New', monospace",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "files.autoSave": "onFocusChange",
     "editor.minimap.enabled": false,
     "editor.lineNumbers": "relative",
@@ -28,15 +28,12 @@
     "git.enabled": false,
     "C_Cpp.errorSquiggles": "Disabled",
     "editor.acceptSuggestionOnEnter": "off",
-    "terminal.integrated.fontSize": 13,
-    "editor.fontSize": 13
     "c-cpp-flylint.flexelint.enable": false,
     "gitlens.blame.line.enabled": false,
     "window.title": "${activeEditorLong}${separator}${rootName}",
     "gitlens.codeLens.enabled": false,
     "workbench.iconTheme": "vscode-icons",
     "terminal.integrated.fontSize": 13,
-    "editor.fontSize": 16,
     "projectManager.showProjectNameInStatusBar": true,
     "projectManager.removeCurrentProjectFromList": false,
     "projectManager.vscode.ignoredFolders": [
@@ -44,5 +41,7 @@
         "out",
         "typings",
         "test"
-    ]
+    ],
+    "editor.fontSize": 16,
+    "extensions.ignoreRecommendations": false
 }
