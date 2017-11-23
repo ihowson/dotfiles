@@ -43,5 +43,13 @@
         "test"
     ],
     "editor.fontSize": 16,
-    "extensions.ignoreRecommendations": false
+    "extensions.ignoreRecommendations": false,
+    "search.useIgnoreFiles": true,
+    "search.useIgnoreFilesByDefault": true,
+    "workbench.panel.location": "bottom",
+    "C_Cpp.intelliSenseEngine": "Default",
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "/usr/local/bin/flake8",
+    "vim.hlsearch": true
 }

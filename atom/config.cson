@@ -2,13 +2,12 @@
   autosave:
     enabled: true
   core:
-    packagesWithKeymapsDisabled: [
-      "tasks"
-    ]
     telemetryConsent: "no"
-  editor:
-    fontSize: 8
+  editor: {}
   "exception-reporting":
     userId: "9e59685e-54eb-47d6-a8dc-3ff505558b19"
   tasks:
     baseMarker: "-"
+  "vim-mode-plus": {}
+  welcome:
+    showOnStartup: false
