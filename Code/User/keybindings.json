@@ -63,5 +63,9 @@
     {
         "key": "cmd+9",
         "command": "workbench.action.openEditorAtIndex9"
+    },
+    {
+        "key": "ctrl+cmd+p",
+        "command": "workbench.action.terminal.focus"
     }
 ]

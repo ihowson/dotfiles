@@ -5,32 +5,7 @@
 	],
 	"installed_packages":
 	[
-		"All Autocomplete",
-		"BetterFindBuffer",
-		"Clickable URLs",
-		"DashDoc",
-		"Dockerfile Syntax Highlighting",
-		"Fix Mac Path",
-		"HexViewer",
-		"jQuery",
-		"Markdown Extended",
-		"MarkdownHighlighting",
-		"Material Color Scheme",
 		"NeoVintageous",
-		"One Dark Color Scheme",
-		"Package Control",
-		"PlainTasks",
-		"Python Flake8 Lint",
-		"Search in Project",
-		"SideBarEnhancements",
-		"SublimeLinter",
-		"SublimeLinter-annotations",
-		"SublimeLinter-cpplint",
-		"SublimeLinter-html-tidy",
-		"SublimeLinter-jshint",
-		"SublimeLinter-json",
-		"SublimeLinter-xmllint",
-		"VintageLines",
-		"Wrap Plus"
+		"Package Control"
 	]
 }

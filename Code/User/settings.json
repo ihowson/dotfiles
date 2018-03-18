@@ -28,6 +28,7 @@
     "git.enabled": false,
     "C_Cpp.errorSquiggles": "Disabled",
     "editor.acceptSuggestionOnEnter": "off",
+    "python.pythonPath": "/usr/local/opt/python3/bin/python3.6",
     "c-cpp-flylint.flexelint.enable": false,
     "gitlens.blame.line.enabled": false,
     "window.title": "${activeEditorLong}${separator}${rootName}",
@@ -44,6 +45,17 @@
     ],
     "editor.fontSize": 16,
     "extensions.ignoreRecommendations": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.d": true,
+        "**/.bake": true,
+        "**/.o": true,
+        "**/.cache": true
+    },
     "search.useIgnoreFiles": true,
     "search.useIgnoreFilesByDefault": true,
     "workbench.panel.location": "bottom",
@@ -51,5 +63,16 @@
     "java.errors.incompleteClasspath.severity": "ignore",
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Path": "/usr/local/bin/flake8",
-    "vim.hlsearch": true
+    "vim.hlsearch": true,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressUpdateNotice": true,
+        "suppressWelcomeNotice": true
+    },
+    "html.autoClosingTags": false
 }

@@ -41,14 +41,25 @@
 		"CVS"
 	],
 	"font_face": "Mononoki",
-	"font_size": 16,
+	"font_size": 13,
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"0_package_control_loader",
+		"All Autocomplete",
+		"Clickable URLs",
+		"DashDoc",
+		"Dockerfile Syntax Highlighting",
+		"Fix Mac Path",
+		"HexViewer",
 		"Markdown",
+		"Material Color Scheme",
+		"SideBarEnhancements",
 		"Six",
+		"SublimeLinter-jshint",
 		"Vintage",
-		"Vintageous"
+		"Vintageous",
+		"jQuery"
 	],
 	"mdpopups.use_sublime_highlighter": true,
 	"rulers":
