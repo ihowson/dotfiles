@@ -5,8 +5,10 @@
 	],
 	"installed_packages":
 	[
+		"Markdown Extended",
 		"Material Color Scheme",
 		"Package Control",
-		"PlainTasks"
+		"PlainTasks",
+		"Theme - One Dark"
 	]
 }

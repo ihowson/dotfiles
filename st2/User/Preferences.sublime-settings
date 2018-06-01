@@ -2,7 +2,7 @@
 	"auto_match_enabled": false,
 	"caret_extra_width": 4,
 	"caret_style": "solid",
-	"color_scheme": "Packages/Material Color Scheme/sublime/material-dark.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
 	"extra_file_exclude_patterns":
 	[
 		"*.pyc",
@@ -64,10 +64,11 @@
 		"CVS"
 	],
 	"font_face": "Mononoki",
-	"font_size": 23.0,
+	"font_size": 17.0,
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"Markdown"
 	],
 	"save_on_focus_lost": true,
 	"scroll_speed": 0,

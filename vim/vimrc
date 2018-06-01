@@ -1,0 +1,201 @@
+version 6.0
+set nocompatible
+let s:cpo_save=&cpo
+set cpo&vim
+map! <S-Insert> <MiddleMouse>
+map! <xHome> <Home>
+map! <xEnd> <End>
+map! <S-xF4> <S-F4>
+map! <S-xF3> <S-F3>
+map! <S-xF2> <S-F2>
+map! <S-xF1> <S-F1>
+map! <xF4> <F4>
+map! <xF3> <F3>
+map! <xF2> <F2>
+map! <xF1> <F1>
+map <S-Insert> <MiddleMouse>
+map <xHome> <Home>
+map <xEnd> <End>
+map <S-xF4> <S-F4>
+map <S-xF3> <S-F3>
+map <S-xF2> <S-F2>
+map <S-xF1> <S-F1>
+map <xF4> <F4>
+map <xF3> <F3>
+map <xF2> <F2>
+map <xF1> <F1>
+let &cpo=s:cpo_save
+unlet s:cpo_save
+set backspace=indent,eol,start
+set fileencodings=ucs-bom,utf-8,latin1
+
+" OS X MacVim
+"if has("macunix")
+    "set guifont=Terminus:h16
+    "map ,r :set guifont=Menlo\ Regular:h24.00 <CR>
+    "map ,f :set guifont=Terminus:h16 <CR>
+    "map ,v :set guifont=Monaco:h10 <CR>
+    
+    " Monaco is also pretty good as a coding font
+    set guifont=Source\ Code\ Pro:h14
+    map ,r :set guifont=Source\ Code\ Pro:h22.00 <CR>
+    map ,f :set guifont=Source\ Code\ Pro:h14 <CR>
+    map ,v :set guifont=Source\ Code\ Pro:h10 <CR>
+
+    map ,q :set fu <CR>
+    map ,z :set nofu <CR>
+    "set fuopt+=maxhorz
+    "set fuopt+=maxvert
+    "set noantialias
+"endif
+
+" OS X X11
+if has("x11")
+    set guifont=Terminus\ 12
+    map ,r :set guifont=Menlo\ 18 <CR>
+    map ,f :set guifont=Terminus\ 12 <CR>
+    map ,v :set guifont=Terminus\ 8 <CR>
+endif
+
+
+
+
+
+"set guifont=Terminus\ 12
+
+"map ,r :set guifont=Terminus\ 24 <CR>
+"map ,f :set guifont=Terminus\ 12 <CR>
+"map ,v :set guifont=Terminus\ 8 <CR>
+"map ,v :set guifont=ProFont\ 9 <CR>
+set helplang=en
+set history=50
+set hlsearch
+set mouse=a
+set printoptions=paper:a4
+set ruler
+"set runtimepath=~/.vim,/usr/share/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vimcurrent,/usr/share/vim/vimfiles/after,/usr/share/vim/addons/after,~/.vim/after
+"set runtimepath=~/.vim,/usr/share/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vimcurrent,/usr/share/vim/vimfiles/after,/usr/share/vim/addons/after,~/.vim/after
+set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.ilg,.inx,.out,.toc
+set termencoding=utf-8
+
+" DO NOT ENABLE viminfo -- information leak combined with encryption
+"set viminfo='20,\"50
+set backspace=2
+
+set incsearch
+set showmatch
+
+set autoindent
+set tabstop=8
+set shiftwidth=2
+set softtabstop=2
+set et
+set sw=4
+set smarttab
+set smartindent
+
+" visual selection is automatically copied to clipboard
+set clipboard=unnamed
+
+"set number
+
+set directory=~/.vim-temp
+
+" translate :W to :w (common typo)
+cabbrev W w
+
+syn on
+
+"   Edit another file in the same directory as the current file
+"   uses expression to extract path from current file's path
+"  (thanks Douglas Potts)
+if has("unix")
+    map ,e :e <C-R>=expand("%:p:h") . "/" <CR>
+else
+    map ,e :e <C-R>=expand("%:p:h") . "\\" <CR>
+endif
+
+map ,/ :buffers <CR>
+map ,1 :buffer 1 <CR>
+map ,d :bd <CR>
+map <C-j> :bp <CR>
+map <C-k> :bn <CR>
+map ,t :e ~/Dropbox/todo.txt <CR>
+map ,n :e ~/Dropbox/next.otl <CR>
+nmap <cr> za
+
+nmap <Tab> >>
+nmap <S-Tab> <<
+vmap <Tab> >
+vmap <S-Tab> <
+
+set guioptions-=r
+set guioptions-=T
+set guioptions-=m
+set guioptions-=L
+
+map ,q :set guioptions-=Llm <CR>
+map ,z :set guioptions+=Llm <CR>
+
+au FileType haskell,vhdl,ada            let b:comment_leader = '-- '
+au FileType vim                         let b:comment_leader = '" '
+au FileType c,cpp,java                  let b:comment_leader = '// '
+au FileType sh,make,python              let b:comment_leader = '# '
+au FileType tex                         let b:comment_leader = '% '
+noremap <silent> ,c :<C-B>sil <C-E>s/^/<C-R>=escape(b:comment_leader,'\/')<CR>/<CR>:noh<CR>
+noremap <silent> ,u :<C-B>sil <C-E>s/^\V<C-R>=escape(b:comment_leader,'\/')<CR>//e<CR>:noh<CR>
+
+:au FocusLost * :wa
+
+set cursorline
+hi CursorLine guibg=#404040    
+
+set autochdir
+set ignorecase " case insensitive isearch by default
+set smartcase
+
+filetype plugin indent on
+syntax on
+
+"set synmaxcol=120
+
+set wildmenu
+set wildmode=list:longest,full
+
+set scrolloff=4
+set showmode
+set showcmd
+set ttyfast
+set undodir=~/.vim-temp
+set undofile
+set backupdir=~/.vim-temp
+
+"nnoremap j gj
+"nnoremap k gk
+nnoremap ; :
+
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+set relativenumber
+
+" taskpaper.vim
+let g:task_paper_styles={'high': 'ctermfg=Red guifg=Red'}
+"'FAIL': 'ctermbg=Red guibg=Red'}
+
+" vim-plug
+call plug#begin('~/.vim/plugged')
+Plug 'https://github.com/davidoc/taskpaper.vim'
+Plug 'https://github.com/rakr/vim-one'
+" after reloading vimrc, run :PlugInstall to install plugins
+call plug#end()
+
+" 'one' theme config
+colors one
+set t_Co=256
+set background=dark
+
+set cm=blowfish2
+
