@@ -1,5 +1,0 @@
-[
-    { "keys": ["ctrl+pagedown"], "command": "next_view" },
-    { "keys": ["ctrl+pageup"], "command": "prev_view" },
-    { "keys": ["ctrl+super+f"], "command": "search_in_project" },
-]

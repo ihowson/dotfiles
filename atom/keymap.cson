@@ -1,2 +1,4 @@
 '.platform-darwin atom-text-editor':
  'f12': 'link:open'
+'body':
+  'cmd-k cmd-j': 'window:focus-next-pane'
