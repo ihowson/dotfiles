@@ -1,0 +1,15 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"CUDA C++",
+		"NeoVintageous",
+		"One Dark Color Scheme",
+		"Package Control",
+		"PlainTasks",
+		"Theme - TwoDark"
+	]
+}

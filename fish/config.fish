@@ -5,7 +5,7 @@ set -q XDG_DATA_HOME
 
 # Load Oh My Fish configuration.
 source $OMF_PATH/init.fish
-set -gx PATH ~/bin /usr/local/sbin $PATH
+set -gx PATH ~/bin ~/nv/bin /usr/local/sbin /Users/ian/Library/Python/3.6/bin/ $PATH
 
 #test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
 

@@ -20,6 +20,7 @@
     titleBar: "custom"
   editor:
     atomicSoftTabs: false
+    fontSize: 16
     softWrap: true
     tabLength: 4
   "exception-reporting":
