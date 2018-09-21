@@ -5,11 +5,16 @@
 	],
 	"installed_packages":
 	[
+		"CMake",
 		"CUDA C++",
+		"GitGutter",
+		"Highlight Trailing Whitespace",
+		"MarkdownEditing",
 		"NeoVintageous",
 		"One Dark Color Scheme",
 		"Package Control",
 		"PlainTasks",
+		"Rainbowth",
 		"Theme - TwoDark"
 	]
 }

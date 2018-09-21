@@ -2,7 +2,7 @@
 	"auto_match_enabled": false,
 	"caret_extra_width": 4,
 	"caret_style": "solid",
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
 	"extra_file_exclude_patterns":
 	[
 		"*.pyc",
@@ -68,7 +68,8 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Markdown"
+		"Markdown",
+		"MarkdownEditing"
 	],
 	"save_on_focus_lost": true,
 	"scroll_speed": 0,

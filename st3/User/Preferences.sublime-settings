@@ -63,15 +63,24 @@
 		".hg",
 		"CVS"
 	],
-	"font_face": "Mononoki",
-	"font_size": 16.0,
+	"font_face": "Iosevka Nerd Font",
+	"font_size": 19.0,
 	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"highlight_trailing_whitespace": true,
 	"ignored_packages":
 	[
+		"GitGutter",
 		"Markdown",
 		"Six",
 		"Vintage",
 		"Vintageous"
+	],
+	"old_font_face": "Mononoki",
+	"rulers":
+	[
+		80,
+		120
 	],
 	"save_on_focus_lost": true,
 	"scroll_speed": 0,

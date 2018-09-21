@@ -5,10 +5,14 @@
 	],
 	"installed_packages":
 	[
+		"Dracula Color Scheme",
 		"Markdown Extended",
+		"MarkdownEditing",
 		"Material Color Scheme",
 		"Package Control",
 		"PlainTasks",
-		"Theme - One Dark"
+		"Theme - One Dark",
+		"Theme - Soda",
+		"Theme - Soda SolarizedDark"
 	]
 }
