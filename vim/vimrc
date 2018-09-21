@@ -193,7 +193,7 @@ Plug 'https://github.com/rakr/vim-one'
 call plug#end()
 
 " 'one' theme config
-colors one
+"colors one
 set t_Co=256
 set background=dark
 
