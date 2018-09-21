@@ -24,6 +24,8 @@ ln -sf $DOTFILES/fish ~/.config/fish
 #ln -sf ~/dotfiles/config ~/.config
 #ln -sf ~/dotfiles/custom-configs/custom-snips ~/.vim/custom-snips
 
+ln -s $DOTFILES/com.iktm.snap.plist ~/Library/Application\ Support/Preferences/
+
 # Set fish as the default shell
 # add /usr/local/bin/fish to /etc/shells
 #chsh -s /bin/usr/local/bin/fish
