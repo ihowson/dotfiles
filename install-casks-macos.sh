@@ -22,4 +22,5 @@ $INST istat-menus
 $INST vlc
 $INST docker
 $INST slack
+$INST font-iosevka-nerd-font
 
