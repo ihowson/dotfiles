@@ -18,6 +18,6 @@ export SSH_AUTH_SOCK=~/.gnupg/S.gpg-agent.ssh
 
 alias gs="git status"
 alias ls="exa"
-alias cat="bat"
+alias cat="bat -p"
 alias find="echo use fd"
 

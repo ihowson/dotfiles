@@ -63,8 +63,12 @@
 		".hg",
 		"CVS"
 	],
-	"font_face": "Iosevka Nerd Font",
-	"font_size": 19.0,
+	"font_face": "InputMonoNarrow-Light",
+	"font_options":
+	[
+		"no_round"
+	],
+	"font_size": 16.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"highlight_trailing_whitespace": true,

@@ -2,5 +2,5 @@
   "translate_tabs_to_spaces": false,
   "date_format": "(%y-%m-%d)",
   "taskpaper_compatible": true,
-  "color_scheme": "Packages/User/tasks-solarized-dark.hidden-tmTheme"
+  "color_scheme": "Packages/User/tasks-monokai.hidden-tmTheme"
 }

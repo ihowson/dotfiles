@@ -20,6 +20,8 @@
     titleBar: "custom"
   editor:
     atomicSoftTabs: false
+    fontFamily: "InputMono-Regular"
+    fontSize: 18
     softWrap: true
     tabLength: 4
   "exception-reporting":

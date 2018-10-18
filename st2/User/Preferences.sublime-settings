@@ -63,7 +63,7 @@
 		".hg",
 		"CVS"
 	],
-	"font_face": "Mononoki",
+	"font_face": "InputMono-Regular",
 	"font_size": 16.0,
 	"highlight_line": true,
 	"ignored_packages":
@@ -71,6 +71,7 @@
 		"Markdown",
 		"MarkdownEditing"
 	],
+	"old_font_face": "Mononoki",
 	"save_on_focus_lost": true,
 	"scroll_speed": 0,
 	"show_tab_close_buttons": false,

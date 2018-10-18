@@ -22,5 +22,5 @@ $INST istat-menus
 $INST vlc
 $INST docker
 $INST slack
-$INST font-iosevka-nerd-font
+$INST homebrew/cask-fonts/font-iosevka-nerd-font
 
