@@ -1,0 +1,22 @@
+nnoremap ; :
+
+set relativenumber
+
+" taskpaper.vim
+let g:task_paper_styles={'high': 'ctermfg=Red guifg=Red'}
+"'FAIL': 'ctermbg=Red guibg=Red'}
+
+" vim-plug
+call plug#begin('~/.vim/plugged')
+Plug 'https://github.com/davidoc/taskpaper.vim'
+"Plug 'https://github.com/rakr/vim-one'
+" after reloading vimrc, run :PlugInstall to install plugins
+call plug#end()
+
+" 'one' theme config
+"colors one
+"set t_Co=256
+"set background=dark
+
+set cm=blowfish2
+
