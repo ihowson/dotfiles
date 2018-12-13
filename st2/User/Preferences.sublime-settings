@@ -63,8 +63,8 @@
 		".hg",
 		"CVS"
 	],
-	"font_face": "InputMono-Regular",
-	"font_size": 16.0,
+	"font_face": "InputMonoNarrow-Light",
+	"font_size": 15.0,
 	"highlight_line": true,
 	"ignored_packages":
 	[
