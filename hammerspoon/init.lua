@@ -94,7 +94,7 @@ hs.hotkey.bind('alt-shift', 'l', 'Move BR', function() _move({0.5, 0.5, 0.5, 0.5
 hs.hotkey.bind('alt-shift', 'h', 'Left half', function() _move({0.0, 0.0, 0.5, 1.0}) end)
 hs.hotkey.bind('alt-shift', ';', 'Right half', function() _move({0.5, 0.0, 0.5, 1.0}) end)
 hs.hotkey.bind('alt-shift', '8', 'Top half', function() _move({0.0, 0.0, 1.0, 0.5}) end)
-hs.hotkey.bind('alt-shift', ',', 'Bottom half', function() _move({0.5, 0.0, 1.0, 0.5}) end)
+hs.hotkey.bind('alt-shift', ',', 'Bottom half', function() _move({0.0, 0.5, 1.0, 0.5}) end)
 
 hs.hotkey.bind('alt-shift', '[', 'Left 2/3', function() _move({0.0, 0.0, 0.66, 1.0}) end)
 hs.hotkey.bind('alt-shift', ']', 'Right 1/3', function() _move({0.66, 0.0, 0.34, 1.0}) end)
