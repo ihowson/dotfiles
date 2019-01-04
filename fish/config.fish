@@ -17,7 +17,23 @@ set -x MANPATH /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/help
 export SSH_AUTH_SOCK=~/.gnupg/S.gpg-agent.ssh
 
 alias gs="git status"
+alias gs="git log"
+alias gd="git diff"
+alias gf="git fetch"
+alias gl="git log"
+alias gcom="git checkout origin/master"
 alias ls="exa"
 alias cat="bat -p"
 alias find="echo use fd"
+
+
+if grep ihowson-dt /etc/hostname
+    # work desktop
+    set -gx PATH ~/bin /usr/local/cuda/bin /usr/lib/ccache ~/.local/bin $PATH
+    set -gx DRIVEWORKS_INSTALL_DIR $HOME/dw/sdk/build/install
+    set -gx CC gcc-4.9
+    set -gx CXX g++-4.9
+    set -gx CUDA_BIN_PATH /usr/local/cuda/
+    set -gx CCACHE_PATH /usr/bin
+end
 
