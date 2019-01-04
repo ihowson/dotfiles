@@ -63,8 +63,8 @@
 		".hg",
 		"CVS"
 	],
-	"font_face": "InputMono-Regular",
-	"font_size": 16.0,
+	"font_face": "InputMonoNarrow-Light",
+	"font_size": 15.0,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -81,5 +81,6 @@
 	"vintage_lines.force_mode": true,
 	"vintage_start_in_command_mode": true,
 	"vintageous_reset_mode_when_switching_tabs": false,
-	"vintageous_use_ctrl_keys": true
+	"vintageous_use_ctrl_keys": true,
+	"spell_check": false
 }

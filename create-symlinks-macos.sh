@@ -20,11 +20,6 @@ ln -sf $DOTFILES/vim/vimrc ~/.vimrc
 #ln -sf ~/dotfiles/mac-tmux ~/.tmux
 ln -s $DOTFILES/st3/User ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
 ln -sf $DOTFILES/fish ~/.config/fish
-#ln -sf ~/dotfiles/zsh/zshrc ~/.zshrc
-#ln -sf ~/dotfiles/config ~/.config
-#ln -sf ~/dotfiles/custom-configs/custom-snips ~/.vim/custom-snips
-
-ln -s $DOTFILES/com.iktm.snap.plist ~/Library/Application\ Support/Preferences/
 
 # Set fish as the default shell
 # add /usr/local/bin/fish to /etc/shells

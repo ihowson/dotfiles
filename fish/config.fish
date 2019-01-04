@@ -17,11 +17,10 @@ set -x MANPATH /usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/help
 export SSH_AUTH_SOCK=~/.gnupg/S.gpg-agent.ssh
 
 alias gs="git status"
-alias gs="git log"
 alias gd="git diff"
 alias gf="git fetch"
-alias gl="git log"
 alias gcom="git checkout origin/master"
+alias gl="git log"
 alias ls="exa"
 alias cat="bat -p"
 alias find="echo use fd"
