@@ -1,6 +1,9 @@
+#!/bin/bash
+
 export INST='brew cask install'
 
 $INST sublime-text
+$INST sublime-merge
 $INST dropbox
 #$INST 1password  # nope; get 1password6 manually
 $INST iterm2
