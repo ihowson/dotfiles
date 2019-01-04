@@ -19,3 +19,8 @@ My daily drivers are Etymotic ER4XR, which are amazing but don't have enough bas
 
 My test track is Tool "Forty Six and Two", so it's optimised to bring out the bass kick without making the bass guitar too overwhelming. Some artists have bass-heavy mixing already (e.g. Trifonic) and it's too much there.
 
+## Vim setup
+
+    curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+    vim +PlugInstall +qall
+
