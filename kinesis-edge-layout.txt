@@ -1,0 +1,32 @@
+[esc]>[play]
+[prnt]>[vol-]
+[scrlk]>[vol+]
+[pause]>[mute]
+{hk1}>{x1}{-shift}{-lwin}{obrk}{+shift}{+lwin}
+[hk2]>[null]
+{hk2}>{x1}{-shift}{-lwin}{cbrk}{+shift}{+lwin}
+[hk3]>[fnshf]
+[hk4]>[LED]
+{hk5}>{x1}{-lshft}{pup}{+lshft}
+{hk6}>{x1}{-shift}{-lwin}{cbrk}{+shift}{+lwin}
+[caps]>[esc]
+{hk7}>{x1}{-lshft}{pdn}{+lshft}
+{hk8}>{x1}{-shift}{-lwin}{obrk}{+shift}{+lwin}
+[hk9]>[null]
+[hk10]>[fnshf]
+[lwin]>[fnshf]
+[lalt]>[alt]
+[lspc]>[lwin]
+[ralt]>[lwin]
+[rctrl]>[alt]
+fn [prnt]>[prev]
+fn [scrlk]>[play]
+fn [ins]>[next]
+fn [hk3]>[fnshf]
+fn [i]>[up]
+fn [h]>[lft]
+fn [j]>[dwn]
+fn [k]>[up]
+fn [l]>[rght]
+fn [hk10]>[fnshf]
+fn [lwin]>[fnshf]

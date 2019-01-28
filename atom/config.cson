@@ -21,7 +21,7 @@
   editor:
     atomicSoftTabs: false
     fontFamily: "InputMonoNarrow-Regular"
-    fontSize: 15
+    fontSize: 16
     softWrap: true
     tabLength: 4
   "exception-reporting":

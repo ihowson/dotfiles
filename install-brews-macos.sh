@@ -13,6 +13,7 @@ $INST pwgen
 $INST git
 $INST noti
 $INST bat
+$INST mosh
 
 #adns
 #global

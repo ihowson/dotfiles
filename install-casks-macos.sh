@@ -25,5 +25,8 @@ $INST istat-menus
 $INST vlc
 $INST docker
 $INST slack
-$INST homebrew/cask-fonts/font-iosevka-nerd-font
+#$INST homebrew/cask-fonts/font-iosevka-nerd-font
+# TODO: Input Mono and SF Mono fonts
+$INST plex-media-player
+$INST kode54-cog
 

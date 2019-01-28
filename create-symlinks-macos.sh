@@ -19,7 +19,10 @@ ln -sf $DOTFILES/vim/vimrc ~/.vimrc
 #ln -sf ~/dotfiles/bashrc ~/.bashrc
 #ln -sf ~/dotfiles/mac-tmux ~/.tmux
 ln -s $DOTFILES/st3/User ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
+ln -s $DOTFILES/st2/User ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
 ln -sf $DOTFILES/fish ~/.config/fish
+ln -sf $DOTFILES/hammerspoon ~/.hammerspoon
+ln -sf $DOTFILES/atom ~/.atom
 
 # Set fish as the default shell
 # add /usr/local/bin/fish to /etc/shells
