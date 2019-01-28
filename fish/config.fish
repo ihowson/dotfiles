@@ -23,7 +23,7 @@ alias gcom="git checkout origin/master"
 alias gl="git log"
 alias ls="exa"
 alias cat="bat -p"
-alias find="echo use fd"
+#alias find="echo use fd"
 
 
 if grep ihowson-dt /etc/hostname

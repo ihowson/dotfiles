@@ -190,12 +190,11 @@ function drawBorder()
     border:show()
 end
 
-drawBorder()
-
-windows = hs.window.filter.new(nil)
-windows:subscribe(hs.window.filter.windowFocused, function () drawBorder() end)
-windows:subscribe(hs.window.filter.windowUnfocused, function () drawBorder() end)
-windows:subscribe(hs.window.filter.windowMoved, function () drawBorder() end)
+-- drawBorder()
+-- windows = hs.window.filter.new(nil)
+-- windows:subscribe(hs.window.filter.windowFocused, function () drawBorder() end)
+-- windows:subscribe(hs.window.filter.windowUnfocused, function () drawBorder() end)
+-- windows:subscribe(hs.window.filter.windowMoved, function () drawBorder() end)
 
 -- TODO: you might also want keystrokes to focus window under quadrant 1,2,3,4
 

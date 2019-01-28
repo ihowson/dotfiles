@@ -19,11 +19,10 @@ $INST teamviewer
 $INST firefox
 $INST hammerspoon
 $INST visual-studio-code
-$INST font-mononoki
-$INST font-source-code-pro
+$INST microsoft-office
 $INST istat-menus
 $INST vlc
 $INST docker
 $INST slack
-$INST homebrew/cask-fonts/font-iosevka-nerd-font
+$INST homebrew/cask-fonts/font-input
 
