@@ -25,4 +25,6 @@ $INST vlc
 $INST docker
 $INST slack
 $INST homebrew/cask-fonts/font-input
-
+# TODO: SF Mono font
+$INST plex-media-player
+$INST kode54-cog

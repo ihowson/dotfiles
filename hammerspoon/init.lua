@@ -165,30 +165,29 @@ hs.hotkey.bind('alt-shift', '/', 'Gather windows', function()
 end)
 
 
-border = nil
+-- border = nil
+-- function drawBorder()
+--     if border then
+--         border:delete()
+--     end
 
-function drawBorder()
-    if border then
-        border:delete()
-    end
+--     local win = hs.window.focusedWindow()
+--     if win == nil then return end
 
-    local win = hs.window.focusedWindow()
-    if win == nil then return end
+--     local f = win:frame()
+--     local fx = f.x - 2
+--     local fy = f.y - 2
+--     local fw = f.w + 4
+--     local fh = f.h + 4
 
-    local f = win:frame()
-    local fx = f.x - 2
-    local fy = f.y - 2
-    local fw = f.w + 4
-    local fh = f.h + 4
-
-    border = hs.drawing.rectangle(hs.geometry.rect(fx, fy, fw, fh))
-    border:setStrokeWidth(5)
-    border:setStrokeColor({["red"]=0.75,["blue"]=0.14,["green"]=0.03,["alpha"]=0.80})
-    border:setRoundedRectRadii(5.0, 5.0)
-    border:setStroke(true):setFill(false)
-    border:setLevel("floating")
-    border:show()
-end
+--     border = hs.drawing.rectangle(hs.geometry.rect(fx, fy, fw, fh))
+--     border:setStrokeWidth(5)
+--     border:setStrokeColor({["red"]=0.75,["blue"]=0.14,["green"]=0.03,["alpha"]=0.80})
+--     border:setRoundedRectRadii(5.0, 5.0)
+--     border:setStroke(true):setFill(false)
+--     border:setLevel("floating")
+--     border:show()
+-- end
 
 -- drawBorder()
 -- windows = hs.window.filter.new(nil)
