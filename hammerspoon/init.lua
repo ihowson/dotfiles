@@ -190,7 +190,6 @@ end)
 -- end
 
 -- drawBorder()
-
 -- windows = hs.window.filter.new(nil)
 -- windows:subscribe(hs.window.filter.windowFocused, function () drawBorder() end)
 -- windows:subscribe(hs.window.filter.windowUnfocused, function () drawBorder() end)

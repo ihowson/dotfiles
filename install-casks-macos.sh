@@ -20,6 +20,7 @@ $INST firefox
 $INST hammerspoon
 $INST visual-studio-code
 $INST font-mononoki
+$INST microsoft-office
 $INST istat-menus
 $INST vlc
 $INST docker
@@ -27,9 +28,7 @@ $INST slack
 $INST plex-media-player
 $INST kode54-cog
 $INST cryptomator
-# TODO input mono font
-
+$INST homebrew/cask-fonts/font-input
 
 # Install SF Mono
 cp /Applications/Utilities/Terminal.app/Contents/Resources/Fonts/*.otf ~/Library/Fonts/
-
