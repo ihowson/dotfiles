@@ -20,13 +20,16 @@ $INST firefox
 $INST hammerspoon
 $INST visual-studio-code
 $INST font-mononoki
-$INST font-source-code-pro
 $INST istat-menus
 $INST vlc
 $INST docker
 $INST slack
-#$INST homebrew/cask-fonts/font-iosevka-nerd-font
-# TODO: Input Mono and SF Mono fonts
 $INST plex-media-player
 $INST kode54-cog
+$INST cryptomator
+# TODO input mono font
+
+
+# Install SF Mono
+cp /Applications/Utilities/Terminal.app/Contents/Resources/Fonts/*.otf ~/Library/Fonts/
 

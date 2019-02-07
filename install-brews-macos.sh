@@ -14,6 +14,8 @@ $INST git
 $INST noti
 $INST bat
 $INST mosh
+$INST watch
+$INST terminal-notifier
 
 #adns
 #global
