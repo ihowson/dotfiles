@@ -24,3 +24,11 @@ My test track is Tool "Forty Six and Two", so it's optimised to bring out the ba
     curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
     vim +PlugInstall +qall
 
+## Fish shell
+
+Ubuntu 16.04 ships an oldish version of Fish which doesn't work with the enclosed prompt. To get something newer:
+
+    sudo apt-add-repository ppa:fish-shell/release-2
+    sudo apt-get update
+    sudo apt-get install fish
+
