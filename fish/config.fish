@@ -1,10 +1,3 @@
-# Path to Oh My Fish install.
-set -q XDG_DATA_HOME
-  and set -gx OMF_PATH "$XDG_DATA_HOME/omf"
-  or set -gx OMF_PATH "$HOME/.local/share/omf"
-
-# Load Oh My Fish configuration.
-source $OMF_PATH/init.fish
 set -gx PATH ~/bin ~/nv/bin /usr/local/sbin /Users/ian/Library/Python/3.6/bin/ $PATH
 
 #test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
@@ -22,9 +15,6 @@ alias gf="git fetch"
 alias gcom="git checkout origin/master"
 alias gl="git log"
 alias ls="exa"
-alias cat="bat -p"
-#alias find="echo use fd"
-
 
 if grep ihowson-dt /etc/hostname
     # work desktop
@@ -35,4 +25,8 @@ if grep ihowson-dt /etc/hostname
     set -gx CUDA_BIN_PATH /usr/local/cuda/
     set -gx CCACHE_PATH /usr/bin
 end
+
+# we don't always have powerline fonts available
+set -g theme_powerline_fonts no
+set -g theme_display_hostname yes
 
