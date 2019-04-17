@@ -16,6 +16,8 @@ $INST bat
 $INST mosh
 $INST watch
 $INST terminal-notifier
+$INST tmux
+$INST autossh
 
 #adns
 #global

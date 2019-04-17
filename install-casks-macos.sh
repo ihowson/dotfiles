@@ -29,6 +29,7 @@ $INST plex-media-player
 $INST kode54-cog
 $INST cryptomator
 $INST homebrew/cask-fonts/font-input
+$INST nomachine
 
 # Install SF Mono
 cp /Applications/Utilities/Terminal.app/Contents/Resources/Fonts/*.otf ~/Library/Fonts/

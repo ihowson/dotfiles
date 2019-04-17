@@ -16,7 +16,9 @@ alias gcom="git checkout origin/master"
 alias gl="git log"
 alias ls="exa"
 
-if grep ihowson-dt /etc/hostname
+abbr g git
+
+if grep ihowson-dt /etc/hostname > /dev/null
     # work desktop
     set -gx PATH ~/bin /usr/local/cuda/bin /usr/lib/ccache ~/.local/bin $PATH
     set -gx DRIVEWORKS_INSTALL_DIR $HOME/dw/sdk/build/install

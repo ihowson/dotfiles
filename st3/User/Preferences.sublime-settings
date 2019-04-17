@@ -80,6 +80,7 @@
 		"Vintage",
 		"Vintageous"
 	],
+	"neovintageous_build_version": 11000,
 	"old_font_face": "Mononoki",
 	"rulers":
 	[
@@ -95,5 +96,6 @@
 	"vintage_lines.force_mode": true,
 	"vintage_start_in_command_mode": true,
 	"vintageous_reset_mode_when_switching_tabs": false,
-	"vintageous_use_ctrl_keys": true
+	"vintageous_use_ctrl_keys": true,
+	"vintageous_use_super_keys": null
 }
