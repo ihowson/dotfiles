@@ -623,11 +623,11 @@ function __bobthefish_prompt_user -S -d 'Display current user and hostname'
             # mul and mod
             # TODO: it's manual for now 'cos I'm out of time
             if [ (prompt_hostname) = 'catbin' ]
-                __bobthefish_start_segment 066
+                __bobthefish_start_segment 068
             else if [ (prompt_hostname) = 'marla' ]
                 __bobthefish_start_segment 606
-            else if [ (prompt_hostname) = 'x220' ]
-                __bobthefish_start_segment 660
+            else if [ (prompt_hostname) = 'Ians-MacBook' ]
+                __bobthefish_start_segment 484
             else if [ (prompt_hostname) = 'Ians-iMac' ]
                 __bobthefish_start_segment 008
             else if [ (prompt_hostname) = 'ihowson-dt' ]

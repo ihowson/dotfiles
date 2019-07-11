@@ -28,6 +28,8 @@ if grep ihowson-dt /etc/hostname > /dev/null
     set -gx CCACHE_PATH /usr/bin
 end
 
+set -gx DOCKER_HOST tcp://ihowson-dt.nvidia.com:2376
+
 # we don't always have powerline fonts available
 set -g theme_powerline_fonts no
 set -g theme_display_hostname yes

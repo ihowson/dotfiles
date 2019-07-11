@@ -5,8 +5,6 @@
 	],
 	"installed_packages":
 	[
-		"CMake",
-		"CUDA C++",
 		"GitGutter",
 		"Highlight Trailing Whitespace",
 		"MarkdownEditing",
@@ -14,7 +12,10 @@
 		"One Dark Color Scheme",
 		"Package Control",
 		"Rainbowth",
-		"SublimeLinter-clang",
 		"Theme - TwoDark"
+	],
+	"repositories":
+	[
+		"https://github.com/ihowson/PlainTasks"
 	]
 }

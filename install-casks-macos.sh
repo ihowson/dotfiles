@@ -28,6 +28,7 @@ $INST slack
 $INST plex-media-player
 $INST kode54-cog
 $INST cryptomator
+$INST alfred
 $INST homebrew/cask-fonts/font-input
 $INST nomachine
 
