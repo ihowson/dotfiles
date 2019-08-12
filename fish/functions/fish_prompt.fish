@@ -987,6 +987,9 @@ function fish_prompt -d 'bobthefish, a fish theme optimized for awesome'
     # User / hostname info
     __bobthefish_prompt_user
 
+    #echo -s (set_color blue) (__kube_prompt) (set_color $fish_color_cwd) " " (prompt_pwd) (set_color normal)
+    echo -s (set_color blue) (__kube_prompt) (set_color normal)
+
     # Virtual environments
     __bobthefish_prompt_desk
     __bobthefish_prompt_rubies

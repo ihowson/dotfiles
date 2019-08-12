@@ -16,7 +16,11 @@ alias gcom="git checkout origin/master"
 alias gl="git log"
 alias ls="exa"
 
+export KUBECONFIG=/Users/ian/nv/kube/config
+
 abbr g git
+abbr k kubectl
+abbr c kubectx
 
 if grep ihowson-dt /etc/hostname > /dev/null
     # work desktop

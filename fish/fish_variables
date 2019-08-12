@@ -8,6 +8,8 @@ SETUVAR Z_EXCLUDE:/Users/ian
 SETUVAR __fish_init_2_39_8:\x1d
 SETUVAR __fish_init_2_3_0:\x1d
 SETUVAR __fish_init_3_x:\x1d
+SETUVAR __kube_ps_enabled:1
+SETUVAR _fish_abbr_c:kubectx
 SETUVAR _fish_abbr_d:docker
 SETUVAR _fish_abbr_g:git
 SETUVAR _fish_abbr_k:kubectl
