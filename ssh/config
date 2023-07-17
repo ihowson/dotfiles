@@ -7,9 +7,5 @@ ServerAliveInterval 240
 # see https://itarch.stanford.edu/archives/2016/general/yubikey-piv-for-ssh-on-macs
 #PKCS11Provider /usr/local/lib/opensc-pkcs11.so
 
-Host *.nvidia.com
-  User ihowson
 
-Host git-master
-  User ihowson
 
