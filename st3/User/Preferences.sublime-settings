@@ -1,8 +1,10 @@
 {
 	"auto_match_enabled": false,
+	"block_caret": "green",
 	"caret_extra_width": 4,
 	"caret_style": "solid",
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	// "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
 	"extra_file_exclude_patterns":
 	[
 		"*.pyc",
@@ -63,12 +65,13 @@
 		".hg",
 		"CVS"
 	],
-	"font_face": "InputMonoNarrow-Light",
+	"font_face": "Operator Mono Book",
+	"font_face_old": "InputMonoNarrow-Light",
 	"font_options":
 	[
 		"no_round"
 	],
-	"font_size": 14,
+	"font_size": 21,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"highlight_trailing_whitespace": true,
@@ -76,9 +79,11 @@
 	[
 		"GitGutter",
 		"Markdown",
+		"MarkdownEditing",
+		"NeoVintageous",
 		"Six",
 		"Vintage",
-		"Vintageous"
+		"Vintageous",
 	],
 	"neovintageous_build_version": 11100,
 	"old_font_face": "Mononoki",
@@ -90,12 +95,18 @@
 	"save_on_focus_lost": true,
 	"scroll_speed": 0,
 	"show_tab_close_buttons": false,
+	"theme": "auto",
 	"translate_tabs_to_spaces": true,
+	"update_check": false,
 	"use_simple_full_screen": true,
 	"vintage_ctrl_keys": true,
 	"vintage_lines.force_mode": true,
 	"vintage_start_in_command_mode": true,
 	"vintageous_reset_mode_when_switching_tabs": false,
 	"vintageous_use_ctrl_keys": true,
-	"vintageous_use_super_keys": null
+	"vintageous_use_super_keys": null,
+	"wide_caret": true,
+	"dark_theme": "Default Dark.sublime-theme",
+	"light_theme": "Default Dark.sublime-theme",
+	"mde.keep_centered": true,
 }

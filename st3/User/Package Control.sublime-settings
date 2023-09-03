@@ -2,20 +2,25 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"MarkdownEditing",
+		"NeoVintageous",
 	],
 	"installed_packages":
 	[
+		"EasyMotion",
 		"GitGutter",
 		"Highlight Trailing Whitespace",
+		"Markdown Extended",
 		"MarkdownEditing",
+		"Monokai Extended",
 		"NeoVintageous",
 		"One Dark Color Scheme",
 		"Package Control",
 		"Rainbowth",
-		"Theme - TwoDark"
+		"Theme - TwoDark",
 	],
 	"repositories":
 	[
 		"https://github.com/ihowson/PlainTasks"
-	]
+	],
 }

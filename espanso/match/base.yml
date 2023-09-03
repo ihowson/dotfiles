@@ -1,0 +1,67 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+  # Simple text replacement
+  - trigger: ";um"
+    replace: "unordered_map"
+  - trigger: ";us"
+    replace: "unordered_set"
+  - trigger: ";cross"
+    replace: "❌"
+  - trigger: ";warn"
+    replace: "🔥"
+  - trigger: ";tick"
+    replace: "✅"
+  - trigger: ";in"
+    replace: "ihowson@nvidia.com"
+  - trigger: ";ij"
+    replace: "ihowson@google.com"
+  - trigger: ";im"
+    replace: "ian@mutexlabs.com"
+  - trigger: ";km"
+    replace: "kandice@mutexlabs.com"
+  - trigger: ";pkg"
+    replace: |
+      Thanks for getting in touch!
+      
+      Unfortunately, I'm not the author of the packages on https://rdrr.io, and I'm not able to provide support for them. You should get in touch with the package authors listed on the package page.
+      
+      Thanks,
+      Ian
+
+  - trigger: ";gh"
+    replace: |
+      Thanks for getting in touch!
+      
+      This issue tracker is just for website issues. We're not able to provide technical support for individual packages. Sorry!
+
+  # NOTE: espanso uses YAML to define matches, so pay attention to the indentation!
+
+  # But matches can also be dynamic:
+
+  # Print the current date
+  #- trigger: ":date"
+  #  replace: "{{mydate}}"
+  #  vars:
+  #    - name: mydate
+  #      type: date
+  #      params:
+  #        format: "%m/%d/%Y"
+
+  # Print the output of a shell command
+  #- trigger: ":shell"
+  #  replace: "{{output}}"
+  #  vars:
+  #    - name: output
+  #      type: shell
+  #      params:
+  #        cmd: "echo 'Hello from your shell'"
+
+  # And much more! For more information, visit the docs: https://espanso.org/docs/

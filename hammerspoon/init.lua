@@ -98,14 +98,11 @@ function _codeWithProfile(profile)
   else
     print(hs.inspect.inspect(app))
 
-    --local win = app:findWindow('kb')
     local win = app:findWindow('[[' .. profile .. ']]')
     -- TODO: if the focused window matches, select the next matching window
-    print('win ')
-    print(win)
     if win == nil then
-      print('ins ')
-      print(hs.inspect.inspect(app:allWindows()))
+      -- nothing with that profile found; just focus a random VSCode window
+      _focusapp('Code')
     else
       win:focus()
     end
@@ -141,32 +138,20 @@ hs.hotkey.bind('ctrl-shift', 'j', 'Bottom left third', function() _move({0.0, 0.
 hs.hotkey.bind('ctrl-shift', 'k', 'Bottom mid third', function() _move({0.33, 0.5, 0.33, 0.5}) end)
 hs.hotkey.bind('ctrl-shift', 'l', 'Bottom right third', function() _move({0.66, 0.5, 0.33, 0.5}) end)
 
---hs.hotkey.bind('alt', 'a', 'Spark', function() _focusapp('Spark') end)
 hs.hotkey.bind('alt', 'a', 'Mimestream', function() _focusapp('Mimestream') end)
--- hs.hotkey.bind('alt', 'a', 'Airmail', function() _focusapp('Airmail') end)
--- hs.hotkey.bind('alt', ';', 'Atom', function() _focusapp('Atom') end)
 hs.hotkey.bind('alt', 'l', 'Google Chrome', function() _focusapp('Google Chrome') end)
---hs.hotkey.bind('alt', 'm', 'Cog', function() _focusapp('Cog') end)
 hs.hotkey.bind('alt', 'f', 'Finder', function() _focusapp('Finder') end)
---hs.hotkey.bind('alt', '.', 'Firefox', function() _focusapp('Firefox') end)
 hs.hotkey.bind('alt', 'h', 'Safari', function() _focusapp('Safari') end)
 hs.hotkey.bind('alt', 'e', 'ForkLift', function() _focusapp('ForkLift') end)
-hs.hotkey.bind('alt', 'q', 'Microsoft Outlook', function() _focusapp('Microsoft Outlook') end)
+hs.hotkey.bind('alt', 'q', 'Gmail', function() _focusapp('Gmail') end)
 hs.hotkey.bind('alt', 'p', 'Preview', function() _focusapp('Preview') end)
--- hs.hotkey.bind('alt', 'o', 'Vivaldi', function() _focusapp('Vivaldi') end)
---hs.hotkey.bind('alt', 'o', 'Firefox', function() _focusapp('Firefox') end)
 hs.hotkey.bind('alt', 'o', 'Brave Browser', function() _focusapp('Brave Browser') end)
-hs.hotkey.bind('alt', "'", 'Slack', function() _focusapp('Slack') end)
--- hs.hotkey.bind('alt', 's', 'Spotify', function() _focusapp('Spotify') end)
+hs.hotkey.bind('alt', "'", 'Google Chat', function() _focusapp('Google Chat') end)
 hs.hotkey.bind('alt', 's', 'Music', function() _focusapp('Music') end)
--- hs.hotkey.bind('alt', 'j', 'ST2', function() _focusapp('ST2') end)
--- hs.hotkey.bind('alt', 'j', 'Sublime Text 3', function() _focusapp('Sublime Text') end)
--- hs.hotkey.bind('alt', 'k', 'Todoist', function() _focusapp('Todoist') end)
-hs.hotkey.bind('alt', 'n', 'Microsoft Teams', function() _focusapp('Microsoft Teams') end)
+hs.hotkey.bind('alt', 'n', 'Google Meet', function() _focusapp('Google Meet') end)
 hs.hotkey.bind('alt', '\\', 'Terminal', function() _focusapp('Terminal') end)
 hs.hotkey.bind('alt', '.', 'Parsec', function() _focusapp('Parsec') end)
 hs.hotkey.bind('alt', 'd', 'WhatsApp', function() _focusapp('WhatsApp') end)
--- hs.hotkey.bind('alt', 'return', 'iTerm', function() _focusapp('iTerm') end)
 hs.hotkey.bind('alt', 'return', 'kitty', function() _focusapp('kitty') end)
 
 hs.hotkey.bind('alt-shift', 'k', 'Next screen', function()
@@ -194,24 +179,6 @@ hs.hotkey.bind('alt-cmd', '-', 'Zoom out', function()
   bm = cm  -- 'bm' is 'best mode'
 
   for mode_name, nm in pairs(sc:availableModes()) do
-    -- 'nm' is 'new mode'
-    -- print(k, v)
-    -- print("try")
-    -- print(hs.inspect(nm))
-
-    -- print(nm['w'] > cm['w'] and ((bm['w'] > cm['w'] and nm['w'] < bm['w']) or (bm['w'] == cm['w'])))
-    -- print(nm['h'] > cm['h'] and (bm['h'] > cm['h'] and nm['h'] < bm['h']))
-    -- print(nm['w'] > cm['w'])
-    -- print(bm['w'] > cm['w'])
-    -- print(nm['w'] < bm['w'])
-    -- print(bm['w'] > cm['w'] and nm['w'] < bm['w'])
-    -- print(nm['h'] > cm['h'])
-    -- print(bm['h'] > cm['h'] and nm['h'] < bm['h'])
-    -- print(bm['h'] > cm['h'])
-    -- print(nm['h'] < bm['h'])
-    -- print(nm['scale'] == 2)
-    -- print(nm['freq'] >= 60)
-    -- print(nm['depth'] >= 8)
 
     if nm['w'] > cm['w'] and ((bm['w'] > cm['w'] and nm['w'] < bm['w']) or (bm['w'] == cm['w'])) and
        nm['h'] > cm['h'] and ((bm['h'] > cm['h'] and nm['h'] < bm['h']) or (bm['h'] == cm['h'])) and
@@ -219,15 +186,6 @@ hs.hotkey.bind('alt-cmd', '-', 'Zoom out', function()
        nm['freq'] >= 60 and
        nm['depth'] >= 8 then
 
-       -- 2021-04-06 18:42:41: {
-      --   depth = 8.0,
-      --   desc = "1280x800@2x 60Hz 8bpp",
-      --   freq = 60.0,
-      --   h = 800,
-      --   scale = 2.0,
-      --   w = 1280
-      -- }
-      print("TAKE IT")
       bm = nm
     end
   end
@@ -265,24 +223,6 @@ hs.hotkey.bind('alt-cmd', '=', 'Zoom in', function()
   bm = cm  -- 'bm' is 'best mode'
 
   for mode_name, nm in pairs(sc:availableModes()) do
-    -- 'nm' is 'new mode'
-    -- print(k, v)
-    -- print("try")
-    -- print(hs.inspect(nm))
-
-    -- print(nm['w'] > cm['w'] and ((bm['w'] > cm['w'] and nm['w'] < bm['w']) or (bm['w'] == cm['w'])))
-    -- print(nm['h'] > cm['h'] and (bm['h'] > cm['h'] and nm['h'] < bm['h']))
-    -- print(nm['w'] > cm['w'])
-    -- print(bm['w'] > cm['w'])
-    -- print(nm['w'] < bm['w'])
-    -- print(bm['w'] > cm['w'] and nm['w'] < bm['w'])
-    -- print(nm['h'] > cm['h'])
-    -- print(bm['h'] > cm['h'] and nm['h'] < bm['h'])
-    -- print(bm['h'] > cm['h'])
-    -- print(nm['h'] < bm['h'])
-    -- print(nm['scale'] == 2)
-    -- print(nm['freq'] >= 60)
-    -- print(nm['depth'] >= 8)
 
     if nm['w'] < cm['w'] and ((bm['w'] < cm['w'] and nm['w'] > bm['w']) or (bm['w'] == cm['w'])) and
        nm['h'] < cm['h'] and ((bm['h'] < cm['h'] and nm['h'] > bm['h']) or (bm['h'] == cm['h'])) and
@@ -290,15 +230,6 @@ hs.hotkey.bind('alt-cmd', '=', 'Zoom in', function()
        nm['freq'] >= 60 and
        nm['depth'] >= 8 then
 
-       -- 2021-04-06 18:42:41: {
-      --   depth = 8.0,
-      --   desc = "1280x800@2x 60Hz 8bpp",
-      --   freq = 60.0,
-      --   h = 800,
-      --   scale = 2.0,
-      --   w = 1280
-      -- }
-      print("TAKE IT")
       bm = nm
     end
   end
@@ -306,12 +237,8 @@ hs.hotkey.bind('alt-cmd', '=', 'Zoom in', function()
   if bm['w'] < 1280 then
     hs.alert("NOPE TOO BIG")
   else
-    -- print("selected")
-    -- print(hs.inspect(bm))
     hs.alert(hs.inspect(bm))
-    -- sc:setMode{width=bm['w'], height=bm['h'], scale=bm['scale'], frequency=bm['freq'], depth=bm['depth']}
     print(bm['w'], bm['h'], bm['scale'])
-    -- sc:setMode(bm['w'], bm['h'], bm['scale'])
     sc:setMode(bm['w'], bm['h'], bm['scale'], bm['freq'], bm['depth'])
   end
 
@@ -650,27 +577,3 @@ windows:subscribe(hs.window.filter.windowMoved, function () drawBorder() end)
 
 -- TODO: you might also want keystrokes to focus window under quadrant 1,2,3,4
 
--- function toggleWindowFocus(windowName)
---     return function()
---         window = hs.window.filter.new(windowName):getWindows()[1]
---         if hs.window.focusedWindow() == window then
---             window = windowHistory
---         end
-
---         windowHistory = hs.window.focusedWindow()
---         hs.mouse.setAbsolutePosition(window:frame().center)
---         window:focus()
---     end
--- end
-
-
--- hs.window.highlight.start()
-
--- hs.window.highlight.ui.flashDuration=0.1
-
--- hs.window.highlight.ui.overlay=false
--- hs.window.highlight.ui.overlayColor = {0,0,0,0.0}
-
--- hs.window.highlight.ui.overlay = true
--- hs.window.highlight.ui.frameColor = {0, 0.6, 1, 1}
--- hs.window.highlight.ui.frameWidth = 10 -- draw a frame around the focused window in overlay mode; 0 to disable
