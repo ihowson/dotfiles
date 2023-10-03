@@ -17,7 +17,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Set standby delay to 24 hours (default is 1 hour)
-sudo pmset -a standbydelay 86400
+#sudo pmset -a standbydelay 86400
 
 # Increase window resize speed for Cocoa applications
 defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
@@ -94,7 +94,7 @@ defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
 defaults write NSGlobalDomain AppleMetricUnits -bool true
 
 # Stop iTunes from responding to the keyboard media keys
-launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
+#launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
 
 ###############################################################################
 # Screen                                                                      #
@@ -102,7 +102,7 @@ launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/nul
 
 # Require password immediately after sleep or screen saver begins
 defaults write com.apple.screensaver askForPassword -int 1
-defaults write com.apple.screensaver askForPasswordDelay -int 0
+defaults write com.apple.screensaver askForPasswordDelay -int 5
 
 # Save screenshots to the desktop
 defaults write com.apple.screencapture location -string "${HOME}/Desktop"
@@ -115,7 +115,7 @@ defaults write com.apple.screencapture disable-shadow -bool true
 
 # Enable subpixel font rendering on non-Apple LCDs
 # Reference: https://github.com/kevinSuttle/macOS-Defaults/issues/17#issuecomment-266633501
-defaults write NSGlobalDomain AppleFontSmoothing -int 1
+#defaults write NSGlobalDomain AppleFontSmoothing -int 1
 
 ###############################################################################
 # Finder                                                                      #
@@ -131,7 +131,7 @@ defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
 defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 
 # Finder: show hidden files by default
-#defaults write com.apple.finder AppleShowAllFiles -bool true
+defaults write com.apple.finder AppleShowAllFiles -bool true
 
 # Finder: show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
@@ -340,7 +340,7 @@ defaults write com.apple.terminal StringEncodings -array 4
 defaults write com.apple.terminal SecureKeyboardEntry -bool true
 
 # Don’t display the annoying prompt when quitting iTerm
-defaults write com.googlecode.iterm2 PromptOnQuit -bool false
+#defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
 ###############################################################################
 # Time Machine                                                                #
@@ -362,23 +362,23 @@ defaults write com.apple.DiskUtility advanced-image-options -bool true
 ###############################################################################
 
 # Enable the WebKit Developer Tools in the Mac App Store
-defaults write com.apple.appstore WebKitDeveloperExtras -bool true
+#defaults write com.apple.appstore WebKitDeveloperExtras -bool true
 
 # Enable Debug Menu in the Mac App Store
-defaults write com.apple.appstore ShowDebugMenu -bool true
+#defaults write com.apple.appstore ShowDebugMenu -bool true
 
 # Enable the automatic update check
-defaults write com.apple.SoftwareUpdate AutomaticCheckEnabled -bool true
+#defaults write com.apple.SoftwareUpdate AutomaticCheckEnabled -bool true
 
 # Download newly available updates in background
-defaults write com.apple.SoftwareUpdate AutomaticDownload -int 1
+#defaults write com.apple.SoftwareUpdate AutomaticDownload -int 1
 
 ###############################################################################
 # Photos                                                                      #
 ###############################################################################
 
 # Prevent Photos from opening automatically when devices are plugged in
-defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
+#defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
 ###############################################################################
 # Google Chrome & Google Chrome Canary                                        #
