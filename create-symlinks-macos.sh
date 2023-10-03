@@ -25,6 +25,7 @@ ln -sf $DOTFILES/kitty ~/.config/kitty
 ln -sf $DOTFILES/wtf ~/.config/wtf
 ln -sf $DOTFILES/hammerspoon ~/.hammerspoon
 ln -sf $DOTFILES/atom ~/.atom
+mkdir -p ~/.ssh
 ln -sf $DOTFILES/ssh/config ~/.ssh/config
 ln -sf $DOTFILES/freshclam.conf /usr/local/etc/clamav
 ln -sf $DOTFILES/oh-my-tmux/tmux.conf ~/.tmux.conf
